@@ -1,6 +1,6 @@
 # Miragon Homebrew Tap
 
-[![Update Homebrew Tap](https://github.com/Miragon/bpmn-modeler/actions/workflows/standalone-homebrew.yml/badge.svg)](https://github.com/Miragon/bpmn-modeler/actions/workflows/standalone-homebrew.yml)
+[![Update Homebrew Tap](https://github.com/Miragon/bpmn-modeler/actions/workflows/publish-standalone-homebrew.yml/badge.svg)](https://github.com/Miragon/bpmn-modeler/actions/workflows/publish-standalone-homebrew.yml)
 
 The official [Homebrew](https://brew.sh) tap for Miragon tools.
 

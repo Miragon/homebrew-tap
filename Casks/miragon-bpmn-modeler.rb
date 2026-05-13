@@ -1,8 +1,8 @@
 cask "miragon-bpmn-modeler" do
-  version "0.0.6"
-  sha256 "fcfbb8714f7f9a84172362cdd838202e2dfb051655f72cdb3715792e65c9ad7b"
+  version "0.0.7"
+  sha256 "1b4fc6ef10bb0728be03de2d0323e1ce6f32362523c7a86fb1a9738b538c7417"
 
-  url "https://github.com/Miragon/bpmn-modeler/releases/download/standalone-v0.0.6/Miragon.BPMN.Modeler-0.0.6-arm64.dmg"
+  url "https://github.com/Miragon/bpmn-modeler/releases/download/standalone-v0.0.7/Miragon.BPMN.Modeler-0.0.7-arm64.dmg"
   name "Miragon BPMN Modeler"
   desc "Standalone BPMN/DMN process modeler"
   homepage "https://github.com/Miragon/bpmn-modeler"

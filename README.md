@@ -1,46 +1,49 @@
-# Miragon Homebrew Tap
+# 🍺 Miragon Homebrew Tap
 
-[![Update Homebrew Tap](https://github.com/Miragon/bpmn-modeler/actions/workflows/publish-standalone-homebrew.yml/badge.svg)](https://github.com/Miragon/bpmn-modeler/actions/workflows/publish-standalone-homebrew.yml)
+Freshly brewed tools for modelling, automation and everything in between from [Miragon](https://miragon.io), served straight to your terminal.
+No gateways, no approvals, no lengthy setup. Just `brew install`.
 
-The official [Homebrew](https://brew.sh) tap for Miragon tools.
-
-> **Note:** This repository is updated automatically by CI on every release.
-> Do not edit it manually.
-
-## What is Homebrew?
-
-[Homebrew](https://brew.sh) is the missing package manager for macOS.
-Install it with:
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-## What is a Tap?
-
-A [tap](https://docs.brew.sh/Taps) is a third-party Homebrew repository.
-Adding this tap makes Miragon packages available to `brew`.
-
-## Installation
+## Quick start
 
 ```bash
 brew tap miragon/tap
-brew install --cask miragon-bpmn-modeler
+brew install miragon/tap/<name>
 ```
 
-## Available Casks
+Don't have Homebrew yet? Grab it at [brew.sh](https://brew.sh). It's the missing package manager for macOS (and Linux).
+A [tap](https://docs.brew.sh/Taps) is simply a third-party Homebrew repository, and this one is ours.
 
-| Cask | Description | Install |
-|------|-------------|---------|
-| `miragon-bpmn-modeler` | Standalone BPMN/DMN process modeler | `brew install --cask miragon-bpmn-modeler` |
+## What's on tap
 
-## Upgrade
+| Name | Type | What it does | Install |
+|------|------|--------------|---------|
+| [`bpmn-cli`](https://github.com/Miragon/bpmn-cli) | Formula | AI-friendly CLI for editing BPMN 2.0 models semantically | `brew install miragon/tap/bpmn-cli` |
+| [`miragon-bpmn-modeler`](https://github.com/Miragon/bpmn-modeler) | Cask | Standalone BPMN/DMN process modeler | `brew install --cask miragon/tap/miragon-bpmn-modeler` |
+
+## Keeping it fresh
+
+Nobody likes a flat beer:
 
 ```bash
-brew upgrade --cask miragon-bpmn-modeler
+brew update && brew upgrade
 ```
 
-## More Information
+## Had enough?
 
-- [Miragon BPMN Modeler](https://github.com/Miragon/bpmn-modeler)
-- [Release Notes](https://github.com/Miragon/bpmn-modeler/releases)
+No hard feelings:
+
+```bash
+brew uninstall <name>
+brew untap miragon/tap
+```
+
+## How this tap works
+
+Every formula and cask is bumped automatically by the release pipeline of its project.
+Please don't edit files here by hand. The robots will overwrite you.
+
+Found a bug or have a wish? Open an issue in the respective project repository linked above.
+
+---
+
+🍻 Cheers, and may your builds be green and your brews be cold.

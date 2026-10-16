@@ -1,8 +1,8 @@
 class BpmnCli < Formula
   desc "AI-friendly CLI for editing BPMN 2.0 models semantically"
   homepage "https://github.com/Miragon/bpmn-cli"
-  url "https://registry.npmjs.org/@miragon/bpmn-cli/-/bpmn-cli-0.6.0.tgz"
-  sha256 "8ced2e7b4fc54e887699e894c9554c4d40fdc205ef2b16dd7221fa3ae0f7229d"
+  url "https://registry.npmjs.org/@miragon/bpmn-cli/-/bpmn-cli-0.7.0.tgz"
+  sha256 "121e733a9cef9ee1b3297bad34716a07d68168d5f7b7f6171eb4b6d30f9f3ef3"
   license "MIT"
 
   depends_on "node"

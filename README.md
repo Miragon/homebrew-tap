@@ -18,6 +18,7 @@ A [tap](https://docs.brew.sh/Taps) is simply a third-party Homebrew repository, 
 | Name | Type | What it does | Install |
 |------|------|--------------|---------|
 | [`bpmn-cli`](https://github.com/Miragon/bpmn-cli) | Formula | AI-friendly CLI for editing BPMN 2.0 models semantically | `brew install miragon/tap/bpmn-cli` |
+| [`bpmn-to-code`](https://github.com/Miragon/bpmn-to-code) | Formula | Generates type-safe APIs from BPMN process models and validates them | `brew install miragon/tap/bpmn-to-code` |
 | [`operate`](https://github.com/Miragon/operate) | Formula | AI-first CLI for the Camunda 7 REST API (Operaton, CIB seven, Camunda 7), standalone without Node.js | `brew install miragon/tap/operate` |
 | [`miragon-bpmn-modeler`](https://github.com/Miragon/bpmn-modeler) | Cask | Standalone BPMN/DMN process modeler | `brew install --cask miragon/tap/miragon-bpmn-modeler` |
 

@@ -5,23 +5,23 @@ class Operate < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Miragon/operate/releases/download/v0.9.0/operate-macos-arm64.tar.xz"
-      sha256 "c315aa0b24f50c98ff68dcfed5f45cd68f9a6967f18b8fa341f59d430c052810"
+      url "https://github.com/Miragon/operate/releases/download/v0.10.0/operate-macos-arm64.tar.xz"
+      sha256 "50138707b7e418ae7705546b763dbb477643b706c72370f5ab057b12f4ebd53e"
     end
     on_intel do
-      url "https://github.com/Miragon/operate/releases/download/v0.9.0/operate-macos-x64.tar.xz"
-      sha256 "ce22bbef908e05015b1084d5672431837846a800fa2d489b6c687f642fa5ee3d"
+      url "https://github.com/Miragon/operate/releases/download/v0.10.0/operate-macos-x64.tar.xz"
+      sha256 "ee76f9a8d5e8275146ca6e02910c2465b67557a6065d2dbe3449e3dbc17474e1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Miragon/operate/releases/download/v0.9.0/operate-linux-arm64.tar.xz"
-      sha256 "e1fe3ef2effe406beac479bbf58265af06cc276a503f1105715828f633ab1439"
+      url "https://github.com/Miragon/operate/releases/download/v0.10.0/operate-linux-arm64.tar.xz"
+      sha256 "fe825e188ac715076004462ee7e2732544fa2b421e38e89dcff247d89ac2c53f"
     end
     on_intel do
-      url "https://github.com/Miragon/operate/releases/download/v0.9.0/operate-linux-x64.tar.xz"
-      sha256 "1802663c7674c743ce0a8967367f01c87455008f6e3ab1425508cd2178083245"
+      url "https://github.com/Miragon/operate/releases/download/v0.10.0/operate-linux-x64.tar.xz"
+      sha256 "fcac909961531d2a325092e5bc202d7b07796620114025db2bc3d509f82b567e"
     end
   end
 

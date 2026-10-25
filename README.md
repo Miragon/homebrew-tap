@@ -19,8 +19,10 @@ A [tap](https://docs.brew.sh/Taps) is simply a third-party Homebrew repository, 
 |------|------|--------------|---------|
 | [`bpmn-cli`](https://github.com/Miragon/bpmn-cli) | Formula | AI-friendly CLI for editing BPMN 2.0 models semantically | `brew install miragon/tap/bpmn-cli` |
 | [`bpmn-to-code`](https://github.com/Miragon/bpmn-to-code) | Formula | Generates type-safe APIs from BPMN process models and validates them | `brew install miragon/tap/bpmn-to-code` |
-| [`operate`](https://github.com/Miragon/operate) | Formula | AI-first CLI for the Camunda 7 REST API (Operaton, CIB seven, Camunda 7), standalone without Node.js | `brew install miragon/tap/operate` |
+| [`pulse-cli`](https://github.com/Miragon/pulse/tree/main/apps/cli) | Formula | Pulse CLI: AI-first command line interface for the Camunda 7 REST API (Operaton, CIB seven, Camunda 7), standalone without Node.js | `brew install miragon/tap/pulse-cli` |
 | [`miragon-bpmn-modeler`](https://github.com/Miragon/bpmn-modeler) | Cask | Standalone BPMN/DMN process modeler | `brew install --cask miragon/tap/miragon-bpmn-modeler` |
+
+`operate` [is now `pulse-cli`](https://miragon.github.io/pulse/cli/installation#renamed-from-operate): `brew upgrade` moves an existing operate install over, and the `operate` command keeps working with a warning until the first release after 2027-01-31.
 
 ## Keeping it fresh
 

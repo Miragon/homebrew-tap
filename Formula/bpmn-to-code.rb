@@ -5,23 +5,23 @@ class BpmnToCode < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Miragon/bpmn-to-code/releases/download/v7.0.0/bpmn-to-code-7.0.0-darwin-arm64.zip"
-      sha256 "5416ca50c820990f6faecd701ce51a94f5b5c61d5a9888b81ee31f4f44785d75"
+      url "https://github.com/Miragon/bpmn-to-code/releases/download/v7.0.1/bpmn-to-code-7.0.1-darwin-arm64.zip"
+      sha256 "62cb78bd57c0a02b7615cbda47a010b36d097f6db11feaee585565ef29cd0399"
     end
     on_intel do
-      url "https://github.com/Miragon/bpmn-to-code/releases/download/v7.0.0/bpmn-to-code-7.0.0-darwin-x64.zip"
-      sha256 "509954e81c6dc0c42ef5daf8874842ed20494c23406ee619244154b9d605fd94"
+      url "https://github.com/Miragon/bpmn-to-code/releases/download/v7.0.1/bpmn-to-code-7.0.1-darwin-x64.zip"
+      sha256 "7a09c7d581b91e3245f86fbd791e52cda44e835820519a5593264c0937bb5a73"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Miragon/bpmn-to-code/releases/download/v7.0.0/bpmn-to-code-7.0.0-linux-arm64.zip"
-      sha256 "a9d48777e65d3b491d2aab098a91ea103600f71738438973ce0f3f3ad0d9fb1b"
+      url "https://github.com/Miragon/bpmn-to-code/releases/download/v7.0.1/bpmn-to-code-7.0.1-linux-arm64.zip"
+      sha256 "b3175a24854e397f743f083e9361ae9d99899e603379c986c06ac85ab0f3b478"
     end
     on_intel do
-      url "https://github.com/Miragon/bpmn-to-code/releases/download/v7.0.0/bpmn-to-code-7.0.0-linux-x64.zip"
-      sha256 "1e67846b8d943f52173e4f01fb474cfbc6724bd838fcd88b57b87ee2b3da94ed"
+      url "https://github.com/Miragon/bpmn-to-code/releases/download/v7.0.1/bpmn-to-code-7.0.1-linux-x64.zip"
+      sha256 "1019c64fd0f42ca7db9919dbbc686dc1788236ac244ce9897f552fef79722b7f"
     end
   end
 

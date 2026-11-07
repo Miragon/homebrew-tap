@@ -5,23 +5,23 @@ class PulseCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Miragon/pulse/releases/download/v0.27.0/pulse-cli-macos-arm64.tar.xz"
-      sha256 "47adbaf6d088b584a5b86eaf6ffcacb4d5220735c97db5e53ba6da211a0bbf10"
+      url "https://github.com/Miragon/pulse/releases/download/v0.27.1/pulse-cli-macos-arm64.tar.xz"
+      sha256 "08075f4281ed157c0e096ee23d2bf230f519ef6882cc6849861357c4e202d980"
     end
     on_intel do
-      url "https://github.com/Miragon/pulse/releases/download/v0.27.0/pulse-cli-macos-x64.tar.xz"
-      sha256 "884900b74045317bb1d07a29d2db73540821b32213753bba8ca101a46370aa68"
+      url "https://github.com/Miragon/pulse/releases/download/v0.27.1/pulse-cli-macos-x64.tar.xz"
+      sha256 "08e0525af8a34e0c3f34266bdb11ce64339d39e5f4c014119150c3b70a056bae"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Miragon/pulse/releases/download/v0.27.0/pulse-cli-linux-arm64.tar.xz"
-      sha256 "986c49043cbe5a3c174d35fdca81851bde253801e3264b987c990df2b3e8d1e3"
+      url "https://github.com/Miragon/pulse/releases/download/v0.27.1/pulse-cli-linux-arm64.tar.xz"
+      sha256 "aaa69f47901dd7df80bb8d7ea50f084425cf60c04e3787e9c565f22fdd242e9f"
     end
     on_intel do
-      url "https://github.com/Miragon/pulse/releases/download/v0.27.0/pulse-cli-linux-x64.tar.xz"
-      sha256 "971b9a5feeaffa7beae536cc1c870ad8291bf060cdc37fc841bac6edb16e5e3f"
+      url "https://github.com/Miragon/pulse/releases/download/v0.27.1/pulse-cli-linux-x64.tar.xz"
+      sha256 "3f9dfd580376d04f03599c58a78f8a944ec534726f259436c64297471d975329"
     end
   end
 
